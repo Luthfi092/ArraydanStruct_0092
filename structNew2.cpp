@@ -7,5 +7,24 @@ struct detailAlamat {
 
 };
 
+struct Orang {
+    string nama;
+    detailAlamat alamat;
+    int umur;
+};
 
+int main(){
+    Orang mhs;
+    //mengisi data
+    cout << "Mengisi data" << endl;
+    cout << "Nama: ";
+    cin >> mhs.nama;
+    cout << "Alamat: ";
+    cin >> mhs.alamat.desa;
+    cout << "Kota: ";
+    cin >> mhs.alamat.kota;
+    cout << "Umur: ";
+    cin >> mhs.umur;
 
+     
+}
